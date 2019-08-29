@@ -1,0 +1,21 @@
+.tile {
+  width: 15px;
+  height: 15px;
+  border-style: solid;
+  border-color: black;
+  background: grey;
+}
+
+.flagged {
+  font: 'F';
+}
+
+.bombed {
+  font: 'B';
+}
+
+.grid {
+  display: flex;
+  border-style: inset;
+  border-style: outset;
+}
